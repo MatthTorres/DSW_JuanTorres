@@ -96,6 +96,7 @@ img{
 
 .Foto img{
     width: 200px;
+    border-radius: 100%;
 }
 #foto{
     grid-area: I;
