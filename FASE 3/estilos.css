@@ -6,7 +6,7 @@
         " D D E E"
         " F F F F"
         " G G G G"
-        " H H H H";
+        " I H H H";
 }
 
 body {
@@ -87,10 +87,19 @@ footer {
     background-color: #D0F5BE;
     margin: 10px;
     padding: 15px;
-    padding: 15px;
     font-size: large;
 }
 
 img{
         width: 600px;
+}
+
+.Foto img{
+    width: 200px;
+}
+#foto{
+    grid-area: I;
+    margin: 10px;
+    padding: 15px;
+
 }
