@@ -1,0 +1,96 @@
+.contenedor {
+    display: grid;
+    grid-template-areas:
+        " A A A A"
+        " C C C B"
+        " D D E E"
+        " F F F F"
+        " G G G G"
+        " H H H H";
+}
+
+body {
+    
+    background-color: #FBFFDC;
+
+}
+
+header {
+    grid-area: A;
+    text-align: center;
+    background-color: #79E0EE;
+    margin: 10px;
+    padding: 15px;
+
+}
+
+
+nav {
+    grid-area: B;
+    background-color: #98EECC;
+    margin: 10px;
+    padding: 15px;
+    font-size: medium;
+}
+
+section {
+    grid-area: C;
+    background-color: #D0F5BE;
+    margin: 10px;
+    padding: 15px;
+    font-size: larger;
+}
+
+#tema1 {
+    grid-area: D;
+    background-color: #FBFFDC;
+    margin: 10px;
+    padding: 15px;
+    font-size: large;
+}
+
+#tema2 {
+    grid-area: E;
+    background-color: #a1f3c6;
+    margin: 10px;
+    padding: 15px;
+    font-size: large;
+}
+
+#mockup{
+    grid-area: F;
+    background-color: #D0F5BE;
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    
+}
+
+
+.Mockup img{
+    width: 700px;
+}
+
+#bibliografia{
+    grid-area: G;
+    background-color: #98EECC;
+    margin: 10px;
+    padding: 15px;
+    font-size: medium;
+}
+
+footer {
+    grid-area: H;
+    background-color: #D0F5BE;
+    margin: 10px;
+    padding: 15px;
+    padding: 15px;
+    font-size: large;
+}
+
+img{
+        width: 600px;
+}
